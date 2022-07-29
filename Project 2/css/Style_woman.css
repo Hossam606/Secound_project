@@ -1,0 +1,273 @@
+body{
+    font-family: 'Edu SA Beginner', cursive;
+    cursor: default;
+    background-color: #c5c4c461;
+     
+}
+
+:root{
+   --main-color:#143d59db;
+    --secound-color:#6c757d;
+}
+
+ .button2 {
+   
+    border-radius: 17px;
+    width: 140px;
+    height: 44px;
+    background-color: var(--main-color);
+    border: none;
+    color: #fff;
+    transition: all 1.5s;
+ }
+
+  .button2:hover{
+    background-color: #fff;
+    color:  var(--secound-color);
+    border: 1px solid var(--secound-color);
+    cursor: pointer;
+    margin: 25px;
+} 
+.button1 {
+    
+    background-color: #ffffff00;
+    color: #eee;
+    border: 1px solid;
+    transition: all 1s;
+}
+.button1:hover{
+    color: #000;
+    background-color: #eee;
+}
+.text-center{
+    text-align: center;
+}
+
+.head_content{
+    text-align: center;
+    color:  #000;
+    margin-bottom: 20px;
+}
+    /* header-navbar */
+.header{
+      
+    background-image: url('../image/woman.webp');
+    height: 400px;
+    background-size: cover;
+}
+.header .overlay{
+    background-color: rgb(0 0 0 / 35%);
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.header .navbar{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding: 40px
+}
+.header .navbar .logo{
+     width: 300px;
+    padding: 12px;
+    margin-right: -80%;
+}
+
+.header .navbar .logo span{
+     color: var(--main-color);
+}
+.header .navbar ul{
+list-style: none;   
+    padding-top: 20px;
+}
+.header .navbar ul li{
+     display: inline-block;
+        padding: 0px 20px;
+}
+.header .navbar ul li a:hover,
+.header .navbar ul li a.active{
+    color: var(--main-color);
+    cursor: pointer;
+}
+.header .navbar ul li a{
+     color: #eee;
+     text-decoration: none;
+    transition: all 1s
+}
+.header .introduction_text{
+    position: absolute;
+  
+    top: 75%;
+     
+    color: #eee;
+    text-align: center;
+    width: 100%;
+    font-size: x-large;
+} 
+.header .introduction_text p span{
+    color:   var(--main-color);
+}
+.header .introduction_text button{
+    width: 170px;
+    height: 40px;
+    margin:20px
+}
+
+.header .introduction_text a{
+     color: #eee;
+     text-decoration: none;
+    transition: all 1s
+}
+.header .introduction_text a:hover {
+  color:   var(--main-color);
+}
+
+
+/*  product*/
+
+.product{
+    margin: 30px 0px;
+}
+.product .row{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 24px;
+}
+.product .row .item{
+    float: left;
+    transition:all .5s ;
+  
+}
+.product .row .item img{
+      cursor: pointer;
+    width: 100%;
+}
+.product .row .item p{
+     padding-top: 10px;
+     color:  var(--secound-color);
+}
+.product .row .item .starts{
+     color: var(--main-color)
+}
+.product .row .item .price{
+     color:  var(--secound-color);
+}
+.product .page-btn span{
+    display: inline-block;
+    border: 1px solid var(--main-color);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    transition: all 1.3s;
+}
+.product .page-btn span:hover{
+    background-color:  var(--secound-color);;
+    margin:0px 10px;
+}
+
+
+
+.popup-overlay
+{
+    position: fixed;
+    background-color: rgba(0,0,0,.7);
+    left: 0;
+    top: 0 ;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+        
+}
+.popup-box{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 1001;
+}
+.popup-box h3{
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 20px;
+    color: var(--secound-color);
+}
+.popup-box img{
+    max-width: 100%;
+    height: 500px;
+     width: 100%;
+}
+.close-button{
+    position: absolute;
+    top: -15px;
+    right: -15;
+    background-color: var(--main-color);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Arial, Tahoma;
+    border-radius: 50%;
+}
+ 
+
+
+
+
+
+  /*brands  */
+.logos{
+    margin-top: 30px;
+}
+.logos .row img{
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+    transition: all 1s
+}
+.logos .row img:hover{
+     margin: 0px 30px;
+    cursor: pointer;
+}
+.logos .row{
+    padding-top: 20px;
+    padding-left: 307px;
+}
+    /*  footer*/
+.footer{
+    background-color: var(--secound-color);
+    margin-top: 30px;
+    padding: 30px;
+}
+.footer p,
+.footer li {
+    color: #eee;
+    
+}
+.footer li {
+    display: block;
+    cursor: pointer;
+    transition: all 1s;
+}
+.footer li:hover {
+    padding: 10px;
+}
+.footer h3,
+.footer h1{
+    color: #000;
+    margin-bottom: 20px;
+}
+
+ 

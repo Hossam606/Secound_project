@@ -1,0 +1,434 @@
+body{
+    font-family: 'Edu SA Beginner', cursive;
+    cursor: default;
+    background-color: #c5c4c461;
+}
+
+:root{
+    --main-color:#143d59db;
+    --secound-color:#6c757d;
+}
+
+ .button2 {
+   
+    border-radius: 17px;
+    width: 140px;
+    height: 44px;
+    background-color: var(--main-color);
+    border: none;
+    color: #fff;
+    transition: all 1.5s;
+ }
+
+  .button2:hover{
+    background-color: #fff;
+    color:  #000;
+    border: 1px solid var(--secound-color);
+    cursor: pointer;
+    margin: 25px;
+} 
+.button2:hover a{
+    color: #000;
+}
+.text-center{
+    text-align: center;
+}
+
+.head_content{
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+    /* header-navbar */
+.header{
+    min-height: 100vh;
+    background-image: url('../image/header1.jpg');
+    background-size: cover;
+}
+.header .overlay{
+    background-color: rgb(0 0 0 / 35%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.header .navbar{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding: 40px
+}
+.header .navbar .logo{
+     width: 300px;
+    padding: 12px;
+    margin-right: -80%;
+}
+
+.header .navbar .logo span{
+     color: var(--main-color);
+}
+.header .navbar ul{
+list-style: none;   
+    padding-top: 20px;
+}
+.header .navbar ul li{
+     display: inline-block;
+        padding: 0px 20px;
+}
+.header .navbar ul li a:hover,
+.header .navbar ul li a.active{
+    color: var(--main-color);
+    cursor: pointer;
+}
+.header .navbar ul li a{
+     color: #eee;
+     text-decoration: none;
+    transition: all 1s
+}
+.header .introduction_text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #eee;
+    text-align: center;
+} 
+.header .introduction_text h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+.header .introduction_text button:hover a{
+    color: #000;
+}
+.header .introduction_text a{
+     color: #eee;
+     text-decoration: none;
+    transition: all 1s
+}
+
+
+
+    /* Gallary */
+.gallary .row{
+    margin-top: 20px;
+    
+}
+.gallary .row img{
+    width: 100% ;
+    height: 450px;
+    border-radius: 10px
+}
+.gallary .row .img{
+    position: relative;
+}
+.gallary .row .img:hover .overlay2{
+    display: block;
+}
+.gallary .row .img:hover .overlay2,
+.gallary .row .img:hover img{
+     
+    transform: rotateZ(6deg);
+}
+.gallary .row .overlay2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; 
+     
+    border-radius: 10px;
+    display: none;
+}
+.gallary .row .img .content{
+   position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.gallary .row .img .content h5{
+    text-align: right;
+}
+.gallary .row .img .overlay2 .first{
+    border: solid 1px  #eee;;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 200px;
+    width: 300px;
+        
+}
+.gallary .row .img .overlay2 .second{
+    background-color: rgb(255 255 255 / 52%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 150px;
+    width: 250px;
+    padding: 24px;
+}
+.gallary a{
+      color: #eee;
+    text-decoration: none;
+     transition: all 1s;
+    cursor: pointer;
+}
+
+    /* feature */
+.featured{
+    margin: 30px 0px;
+}
+.featured .product{
+    overflow: hidden;
+    position: relative;
+}
+.featured .product .product1{
+    float: left;
+    transition:all .5s ;
+}
+.featured .product .product1 img{
+     width: 95%
+}
+.featured .product .product1:hover {
+     padding: 25px 10px;
+}
+
+.featured .product .product1 p{
+     padding-top: 10px;
+    color:  var(--secound-color);
+}
+.featured .product .product1 .starts{
+     color: var(--main-color)
+}
+.featured .product .product1 .price{
+     color:  var(--secound-color);
+}
+    /* latest */
+
+.Latest_product .slider{
+    overflow: hidden;
+    position: relative;
+    display: inline-flex;
+}
+.Latest_product .slider .test1{
+     float: left;
+     margin-right: 20px;
+    transition: all 1.4s;
+    border: 0.5px solid #f7f2f2;
+    width: 300px !important
+        
+}
+.Latest_product .slider .test1 div{
+   border: 0.5px solid #f7f2f2;
+    background-color: #eef2f542;
+    height: 100%;
+}
+.Latest_product .slider .test1:hover {
+    box-shadow:  0px 0px 10px 5px rgb(0 0 0 / 43%);
+}
+
+.Latest_product .btn{
+     display: inline-flex;
+}
+.Latest_product .btn div{
+    border: 1px solid #cccaca;
+    width: 45px;
+    font-size: x-large;
+    border-radius: 19px;
+    padding-bottom: 6px;
+    margin-right: 50px
+}
+.Latest_product .btn div:hover{
+    color: var(--secound-color);
+}
+    /* golf */
+
+.golf{
+    margin:20px 0px; 
+    background-color: var(--secound-color);
+    
+}
+.golf .image{
+    float: left;
+    padding: 60px;
+    background-image: url(../image/golf.jpg);
+    background-size: cover;
+    background-color: aliceblue;
+}
+.golf .image h2{
+    font-size: xxx-large;
+    color: white;
+    font-family: fantasy;
+}
+.golf .golf_content{
+    float: left;
+    padding: 80px;
+    color: #eee;
+}
+    /* collection */
+.collection {
+    height: 450px;
+}
+.collection .product1{
+    float: left;
+    background-image: url(../image/product9.jpg);
+    background-size: cover;
+    height: 100%;
+    padding: 10px 10px
+}
+.collection .product2{
+    float: left;
+    height: 100%;
+    padding: 10px;
+        
+}
+.collection .product3{
+    float: left;
+    background-image: url(../image/product12.jpg);
+    background-size: cover;
+    height: 100%;
+    padding: 10px 10px;
+}
+.collection .product1 div,
+.collection .product3 div{
+    padding-top: 330px;
+}
+.collection p{
+    cursor: pointer;
+}
+.collection .product2 .top {
+    background-image: url(../image/product10.jpg);
+    background-size: cover;
+    height: 190px;
+    
+}
+.collection .product2 .down {
+     background-image: url(../image/product11.jpg);
+    background-size: cover;
+    height: 190px;
+    margin-top: 20px;
+}
+.collection .product2 .top div{
+    padding-left: 360px;
+    padding-top: 100px;
+    
+}
+.collection .product2 .down div{
+    padding-left: 35px;
+    padding-top: 100px;
+}
+.collection .overlay{
+    transition: all 0.8s
+}
+.collection .overlay:hover{
+    background-color:rgb(0 0 0 / 11%);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    box-shadow:  0px 0px 10px 5px rgb(0 0 0 / 43%);
+}
+
+.collection a{
+      color: #000;
+     text-decoration: none;
+    transition: all 1s
+}
+    /* categories */
+.categories{
+    overflow: hidden;
+    position: relative;
+}
+.categories .men,
+.categories .woman,
+.categories .kids
+{
+    float: left;
+    background-size: cover;
+    padding: 30px
+}
+.categories .men{
+        background-image:url(../image/men.jpg);
+}
+.categories .woman{
+        background-image:url(../image/woman.jpg);
+}
+.categories .kids{
+         background-image:url(../image/kids.jpg);
+}
+.categories .button1 {
+    margin-top: 135%;
+    width: 50%;
+    height: 6%;
+    background-color: #ffffff00;
+    color: #eee;
+    border: 1px solid;
+    transition: all 1s;
+}
+.categories .button1:hover{
+    color: #000;
+    background-color: #ffffff3b;
+}
+.categories .button1:hover a{
+    color: #000;
+     
+}
+.categories .button1  a{
+      color: #eee;
+    text-decoration: none;
+     transition: all 1s;
+    cursor: pointer;
+}
+
+    /*brands  */
+.logos{
+    margin-top: 30px;
+}
+.logos .row img{
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+    transition: all 1s
+}
+.logos .row img:hover{
+     margin: 0px 30px;
+    cursor: pointer;
+}
+.logos .row{
+    padding-top: 20px;
+    padding-left: 307px;
+}
+    /*  footer*/
+.footer{
+    background-color: var(--secound-color);
+    margin-top: 30px;
+    padding: 30px;
+}
+.footer p,
+.footer li {
+    color: #eee;
+    
+}
+.footer li {
+    display: block;
+    cursor: pointer;
+    transition: all 1s;
+}
+.footer li:hover {
+    padding: 10px;
+}
+.footer h3,
+.footer h1{
+    color: #000;
+    margin-bottom: 20px;
+}
+    /*  */

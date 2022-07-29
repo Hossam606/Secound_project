@@ -1,0 +1,242 @@
+body{
+    font-family: 'Edu SA Beginner', cursive;
+    cursor: default;
+    background-color: #c5c4c461;
+     
+}
+
+:root{
+   --main-color:#143d59db;
+    --secound-color:#6c757d;
+}
+
+ .button2 {
+   
+    border-radius: 17px;
+    width: 140px;
+    height: 44px;
+    background-color: var(--main-color);
+    border: none;
+    color: #fff;
+    transition: all 1.5s;
+ }
+
+  .button2:hover{
+    background-color: #fff;
+    color:  var(--secound-color);
+    border: 1px solid var(--secound-color);
+    cursor: pointer;
+    margin: 25px;
+} 
+.button1 {
+    
+    background-color: #ffffff00;
+    color: #eee;
+    border: 1px solid;
+    transition: all 1s;
+}
+.button1:hover{
+    color: #000;
+    background-color: #eee;
+}
+.text-center{
+    text-align: center;
+}
+
+.head_content{
+    text-align: center;
+    color:  #000;
+    margin-bottom: 20px;
+}
+    /* header-navbar */
+.header{
+    min-height: 100vh;
+    background-image: url('../image/header_product.webp');
+    background-size: cover;
+}
+.header .overlay{
+    background-color: rgb(0 0 0 / 35%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.header .navbar{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding: 40px
+}
+.header .navbar .logo{
+     width: 300px;
+    padding: 12px;
+    margin-right: -80%;
+}
+
+.header .navbar .logo span{
+     color: var(--main-color);
+}
+.header .navbar ul{
+list-style: none;   
+    padding-top: 20px;
+}
+.header .navbar ul li{
+     display: inline-block;
+        padding: 0px 20px;
+}
+.header .navbar ul li a:hover,
+.header .navbar ul li a.active{
+    color: var(--main-color);
+    cursor: pointer;
+}
+.header .navbar ul li a{
+     color: #eee;
+     text-decoration: none;
+    transition: all 1s
+}
+.header .introduction_text{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    color: #eee;
+    text-align: center;
+    width: 100%;
+} 
+.header .introduction_text h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+.header .introduction_text button{
+    width: 170px;
+    height: 40px;
+    margin:20px
+}
+.header .introduction_text a{
+     color: #eee;
+     text-decoration: none;
+    transition: all 1s
+}
+
+
+
+.header .introduction_text .button1:hover a{
+    color: #000;
+     
+}
+.header .introduction_text .button1  a{
+      color: #eee;
+    text-decoration: none;
+     transition: all 1s;
+    cursor: pointer;
+}
+/*   */
+
+.all_product{
+    margin: 30px 0px;
+}
+.all_product ul {
+   
+    text-align: center;
+}
+.all_product ul li{
+    display: inline-block;
+    border: 1px solid #d4cccc;
+    color: #a7a7a7;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.all_product ul .selected{
+    background-color: var(--main-color);
+    border-radius: 2px solid #d4cccc;
+    color: #fff;
+}
+.all_product .product .row{
+    overflow: hidden;
+    position: relative;
+    display: inline-flex;
+    
+}
+.all_product .mix {
+    float: left;
+    transition:all .5s ;
+    width: 330px;
+     
+}
+
+.all_product .product .mix:hover{
+     
+}
+
+.all_product .product .row p{
+     padding-top: 10px;
+    color:  var(--secound-color);
+}
+.all_product .product .row .starts{
+     color: var(--main-color)
+}
+.all_product .product .row .price{
+     color:  var(--secound-color);
+}
+
+/*   */
+ 
+
+ 
+/*   */
+ /*   */
+/*   */
+/*   */
+
+    /*brands  */
+.logos{
+    margin-top: 30px;
+}
+.logos .row img{
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+    transition: all 1s
+}
+.logos .row img:hover{
+     margin: 0px 30px;
+    cursor: pointer;
+}
+.logos .row{
+    padding-top: 20px;
+    padding-left: 307px;
+}
+    /*  footer*/
+.footer{
+    background-color: var(--secound-color);
+    margin-top: 30px;
+    padding: 30px;
+}
+.footer p,
+.footer li {
+    color: #eee;
+    
+}
+.footer li {
+    display: block;
+    cursor: pointer;
+    transition: all 1s;
+}
+.footer li:hover {
+    padding: 10px;
+}
+.footer h3,
+.footer h1{
+    color: #000;
+    margin-bottom: 20px;
+}
+
+ 

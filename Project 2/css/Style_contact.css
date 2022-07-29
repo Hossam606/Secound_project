@@ -1,0 +1,234 @@
+body{
+    font-family: 'Edu SA Beginner', cursive;
+    cursor: default;
+    background-color: #c5c4c461;
+     
+}
+
+:root{
+    --main-color:#143d59db;
+    --secound-color:#6c757d;
+}
+
+ .button2 {
+   
+    border-radius: 17px;
+    width: 140px;
+    height: 44px;
+    background-color: var(--main-color);
+    border: none;
+    color: #fff;
+    transition: all 1.5s;
+ }
+
+  .button2:hover{
+    background-color: #fff;
+    color:  var(--secound-color);
+    border: 1px solid var(--secound-color);
+    cursor: pointer;
+    margin: 25px;
+} 
+.button1 {
+    
+    background-color: #ffffff00;
+    color: #eee;
+    border: 1px solid;
+    transition: all 1s;
+}
+.button1:hover{
+    color: #000;
+    background-color: #eee;
+}
+.text-center{
+    text-align: center;
+}
+
+.head_content{
+    text-align: center;
+    color:  #000;
+    margin-bottom: 20px;
+}
+    /* header-navbar */
+.header{
+      
+    background-image: url('../image/men_head.webp');
+    height: 400px;
+    background-size: cover;
+}
+.header .overlay{
+    background-color: rgb(0 0 0 / 35%);
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.header .navbar{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding: 40px
+}
+.header .navbar .logo{
+     width: 300px;
+    padding: 12px;
+    margin-right: -80%;
+}
+
+.header .navbar .logo span{
+     color: var(--main-color);
+}
+.header .navbar ul{
+list-style: none;   
+    padding-top: 20px;
+}
+.header .navbar ul li{
+     display: inline-block;
+        padding: 0px 20px;
+}
+.header .navbar ul li a:hover,
+.header .navbar ul li a.active{
+    color: var(--main-color);
+    cursor: pointer;
+}
+.header .navbar ul li a,
+.header .introduction_text a{
+    color: #eee;
+    text-decoration: none;
+    transition: all 1s
+}
+.header .introduction_text{
+    position: absolute;
+  
+    top: 75%;
+     
+    color: #eee;
+    text-align: center;
+    width: 100%;
+    font-size: x-large;
+} 
+.header .introduction_text p span{
+    color:   var(--main-color);
+}
+.header .introduction_text button{
+    width: 170px;
+    height: 40px;
+    margin:20px
+}
+
+/*contact  */
+.contact{
+    margin:30px; 
+}
+.contact .form {
+    overflow: hidden;
+    width: 56%;
+    transform: translate(41%,0%);
+    border-radius: 30px;
+     
+    padding: 20px 25px;
+    
+    background-color: #fff;
+    box-shadow: 0 0 40px 0 rgb(0 0 0 / 15%);
+    overflow: hidden;
+    padding: 40px;
+    z-index: 9;
+}
+.contact .form .info,
+.contact .form .get{
+    float: left;
+}
+.contact .form .info ul{
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.contact .form .info ul li{
+        margin-bottom: 20px;
+        overflow: hidden;
+}
+.contact .form .info ul li i{
+    border: 1px solid #646464;
+    border-radius: 50%;
+    float: left;
+    font-size: 18px;
+    height: 40px;
+    line-height: 38px;
+    margin-right: 10px;
+    text-align: center;
+    width: 40px;
+    transition: .3s;
+}
+.contact .form .info ul li i:hover {
+ border: 1px solid var(--main-color);    
+}
+.contact .form .get{
+    padding-left: 50px;
+}
+.contact .form .get input{
+    border: 1px solid hsl(0, 0%, 93%);
+    color: hsl(231, 6%, 56%);
+    margin: 10px 0;
+    padding: 8px 20px;
+    width: 100%;
+    transition: all 1s;
+}
+.contact .form .get button{
+    transition: all 1s;
+    border-radius: 30px
+}
+.contact .form .get button:hover{
+background-color: var(--secound-color);
+}
+.contact .form .get input{
+    margin: 10px;
+}
+/*brands  */
+/*brands  */
+
+
+/*brands  */
+.logos{
+    margin-top: 30px;
+}
+.logos .row img{
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+    transition: all 1s
+}
+.logos .row img:hover{
+     margin: 0px 30px;
+    cursor: pointer;
+}
+.logos .row{
+    padding-top: 20px;
+    padding-left: 307px;
+}
+    /*  footer*/
+.footer{
+    background-color: var(--secound-color);
+    margin-top: 30px;
+    padding: 30px;
+}
+.footer p,
+.footer li {
+    color: #eee;
+    
+}
+.footer li {
+    display: block;
+    cursor: pointer;
+    transition: all 1s;
+}
+.footer li:hover {
+    padding: 10px;
+}
+.footer h3,
+.footer h1{
+    color: #000;
+    margin-bottom: 20px;
+}
+
+ 
